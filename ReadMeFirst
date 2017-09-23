@@ -1,0 +1,22 @@
+1.You'll need a UNIX based OS.
+2.You can download Ubuntu from https://www.ubuntu.com/download/desktop
+3.You can also use PUTTY Or NoMachine for the connection to the remote server.Generally all the school's has its own servers.
+
+NOTE: The client should be on the same server.
+
+
+Step for Execution, if you are using it on your school's server.I am running it on university of windsor's server as an example.
+
+Unix Server:
+
+1. Compile the unix server file on alpha.cs.uwindsor.ca (University of Windsor's server) using gcc calcyServer.c -o server.exe 
+2. Execute the file as ./server.exe 12345 where the port number is 12345
+3. Now when the server is up compile the client.
+
+Unix Client:
+
+1. Compile the unix client file on alpha.cs.uwindsor.ca (University of windsor's server) using gcc calcyClient.c -o client.exe 
+2. Execute the file as ./client.exe 12345 137.207.82.51 where the port number is 12345 and 137.207.82.51 is the IP address for alpha server
+3. Now when the client is connected with the server, Sever will indicate by displaying a message.
+4. Now you can, interact with the server.
+5. Example: You can type 3+4 and server will return 7 as an answer.
