@@ -1,5 +1,5 @@
-/* --- Jaspreet Singh 104658273
----  Client code for remote calcutor on unix command line interface ---
+/* --- Jaspreet Singh 
+---  Client code for remote calculator on unix command line interface ---
 */
 
 
