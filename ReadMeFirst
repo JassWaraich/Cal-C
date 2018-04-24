@@ -2,10 +2,10 @@
 2.You can download Ubuntu from https://www.ubuntu.com/download/desktop
 3.You can also use PUTTY Or NoMachine for the connection to the remote server.Generally, all the school's has its own servers.
 
-NOTE: The client should be on the same server(alpha.cs.uwindsor.ca).
+NOTE: The client should be on the same server(e.g. alpha.cs.uwindsor.ca).
 
 
-Step for Execution, if you are using it on your school's server.I am running it on University of Windsor's server as an example.
+Steps for Execution, if you are using it on your school's server.I am running it on University of Windsor's server as an example.
 
 Unix Server:
 
